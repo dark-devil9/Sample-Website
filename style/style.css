@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.content::after{
+    background: url("https://images.unsplash.com/photo-1433155805822-ffc337821a5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHwxOTA3Mjd8fHx8fHx8MTY4OTYxMDgxOQ&ixlib=rb-4.0.3&q=80&w=1080") no-repeat center center/cover;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 92px;
+    opacity: 0.8;
+}
+
+header h1{
+    font-family: 'Style Script', cursive;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    list-style: none;
+    color: white;
+    background-color: rgb(27, 26, 26);
+}
+
+nav li {
+    text-decoration: none;
+    color: white;
+    margin-left: 0px;
+    padding: 15px 21px 13px 14px;
+    margin: -5px 18px -2px 4px;
+    text-align: right;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    transition: 0.3s;
+    border-radius: 20px;
+    opacity: 1;
+    padding: 1px 12px;
+    margin: 1px -13px;
+}
+#contact{
+
+    padding-right: 14px;
+
+}
+nav li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.content p{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 800;
+    margin: 43px 36px;
+    padding: 12px 12px;
+    font-family: cursive;
+}
+
+.contact{
+    width: 100%;
+    margin: 24px 1px;
+    padding: 23px 94px;
+    margin-right: -16px;
+    margin-top: 63px;
+}
+
+.contact::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(27, 26, 26);
+    width: 100%;
+
+    height: 80%;
+    z-index: -1;
+    left: 0;
+    top: 684px;
+}
+
+
+.contact input,.contact textarea{
+    margin: 6px 378px;
+    padding: 10px 0px;
+}
+
+.contact h1{
+    text-align: center;
+    color: maroon;
+    font-family: 'Lugrasimo', cursive;
+    padding: 16px 9px;
+    margin: 9px 161px;
+    margin-top: 0px;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#submit{
+  
+    margin: 16px 535px;
+    padding: 7px 2px;
+    margin-bottom: 49px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.socialmedia{
+    margin: 50px 50px;
+}
+
+.socialmedia::after{
+    background: url("../Images/socialmedia.jpg") no-repeat center center/cover;
+    content: "";
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 1193px;
+    opacity: 0.8;
+}
+.socialmedia h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 20px;
+    margin-bottom: 30px;
+}
+
+.socialmedia h1 span{
+    padding: 0px 12px;
+    border: 2px solid black;
+    background-color: #ff3939a6;
+    border-radius: 10px;
+}
+
+.socialmedia ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    left: -25px;
+    top: 0px;
+}
+
+.socialmedia ul li {
+    font-size: 45px;
+    margin: 12px 27px;
+}
+
+.socialmedia ul li a .fa-brands{
+    color: black;
+    padding: 11px 14px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.socialmedia ul li a .fa-facebook:hover{
+    color: white;
+    background-color: #4267B2;
+    transform: translate(0,-10px);
+}  
+
+.socialmedia ul li a .fa-instagram:hover{
+    color: white;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+
+    transform: translate(0,-10px);
+}  
+.socialmedia ul li a .fa-github:hover{
+    color: white;
+    background-color: black;
+    transform: translate(0,-10px);
+}  
+.socialmedia ul li a .fa-linkedin-in:hover{
+    color: white;
+    background-color: #0A66C2;
+    transform: translate(0,-10px);
+}  
+.socialmedia ul li a .fa-whatsapp:hover{
+    color: white;
+    transform: translate(0,-10px);
+    background-color: #2BB741;
+}  
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer h4{
+    position: relative;
+    bottom: 50%;
+    padding-top: 17px;
+    padding-bottom: 14px;
+}
